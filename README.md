@@ -7,7 +7,7 @@ Django middleware to manipulate file based cache location by  translation.
 
 ```
 $ cd project/middleware
-$ wget 
+$ wget https://raw.githubusercontent.com/ChristianKnedel/django-FileBasedCache-by-language-middleware/main/cachefolderMiddleware.py
 ```
 
 # How to use
@@ -47,7 +47,7 @@ CACHES = {
     },
     'file': {
       'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
-      'LOCATION': 'cache',
+      'LOCATION': CACHES_BASE_PATH,
       'OPTIONS': {
 	    'CULL_FREQUENCY': 2,
         'MAX_ENTRIES': 50000
