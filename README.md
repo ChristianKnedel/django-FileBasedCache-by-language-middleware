@@ -3,8 +3,6 @@ Django middleware to manipulate file based cache location by  translation.
 
 
 # How to install
-
-
 ```
 $ cd project/middleware
 $ wget https://raw.githubusercontent.com/ChristianKnedel/django-FileBasedCache-by-language-middleware/main/cachefolderMiddleware.py
@@ -56,4 +54,15 @@ CACHES = {
 }
 ```
 
-# Details
+# Details / Folder structure
+My cache assets folder looks like this:
+- cache-folder
+  - ar
+    - 00a1057a3371d994771cb86bbeb02875.djcache
+    -  63577b187c282b4220a8aa5c22091be3.djcache
+    -  b43b2e2b2a8e9d4f908e84890cfca04a.djcache
+    -  ba45ce341a32d4379e7346d631c54fe1.djcache
+    -  ...
+  - de
+  - en
+  - zh
