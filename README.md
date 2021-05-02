@@ -1,4 +1,4 @@
-# django-FileBasedCache-by-language-middleware
+# FileBasedCache by translation
 Django middleware to manipulate file based cache location by  translation.
 
 
